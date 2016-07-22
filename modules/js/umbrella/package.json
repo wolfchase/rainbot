@@ -1,0 +1,8 @@
+{
+  "version": "0.1.0",
+  "dependencies": {
+    "jsrml": "^0.2.0",
+    "lodash": "^4.7.0",
+    "mathjs": "^3.1.4"
+  }
+}

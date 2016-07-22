@@ -1,0 +1,33 @@
+# Rain config
+# 0.6.0-alpha.1
+
+# Server information
+host : irc.canternet.org
+port : 6667
+
+# Channel Information
+# Channels listed here will be automatically joined upon server connect
+channels :
+  - "#snowybottest"
+  - "#RainBot"
+
+# User information
+nick     : SnowBot
+realname : RainBotDevelop
+username : RainBotDevelop
+modes    : +B
+
+# Command Information
+# The command prefix is used to denote commands from IRC users
+commandprefix : .
+
+# Modules
+modules :
+  # Python Modules
+  #py :
+    #mlp : .
+
+  # Go Modules
+  go :
+    raincore : github.com/raindevteam
+

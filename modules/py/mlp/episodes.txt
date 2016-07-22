@@ -1,0 +1,109 @@
+# Season 1
+s1e01:Friendship is Magic Part 1
+s1e02:Friendship is Magic Part 2
+s1e03:The Ticket Master
+s1e04:Applebuck Season
+s1e05:Griffon the Brush-off
+s1e06:Boast Busters
+s1e07:Dragonshy
+s1e08:Look Before you Sleep
+s1e09:Bridle Gossip
+s1e10:Swarm of the Century
+s1e11:Winter Wrap Up
+s1e12:Call of the Cutie
+s1e13:Fall Weather Friends
+s1e14:Suited for Success
+s1e15:Feeling Pinkie Keen
+s1e16:Sonic Rainboom
+s1e17:Stare Master
+s1e18:The Show Stoppers
+s1e19:A Dog and Pony Show
+s1e20:Green Isn't Your Color
+s1e21:Over a Barrel
+s1e22:A Bird in the Hoof
+s1e23:The Cutie Mark Chronicles
+s1e24:Owls Well That Ends Well
+s1e25:Party of One
+s1e26:The Best Night Ever
+# Season 2
+s2e01:Return of Harmony Part 1
+s2e02:Return of Harmony Part 2
+s2e03:Lesson Zero
+s2e04:Luna Eclipsed
+s2e05:Sisterhooves Social
+s2e06:The Cutie Pox
+s2e07:May the Best Pet Win
+s2e08:The Mysterious Mare Do Well
+s2e09:Sweet and Elite
+s2e10:Secret of my Excess
+s2e11:Hearths Warming Eve
+s2e12:Family Appreciation Day
+s2e13:Baby Cakes
+s2e14:The Last Roundup
+s2e15:The Super Speedy Cider Squeezy 6000
+s2e16:Read it and Weep
+s2e17:Hearts and Hooves Day
+s2e18:A Friend in Deed
+s2e19:Putting Your Hoof Down
+s2e20:It's About Time
+s2e21:Dragon Quest
+s2e22:Hurricane Fluttershy
+s2e23:Ponyville Confidential
+s2e24:MMMystery on the Friendship Express
+s2e25:A canterlot Wedding Part 1
+s2e26:A Canterlot Wedding Part 2
+# Season 3
+s3e01:The Crystal Empire Part 1
+s3e02:The Crystal Empire Part 2
+s3e03:Too Many Pinkie Pies
+s3e04:One Bad Apple
+s3e05:Magic Duel
+s3e06:Sleepless in Ponyville
+s3e07:Wonderbolt Academy
+s3e08:Apple Family Reunion
+s3e09:Spike at Your Service
+s3e10:Keep Calm and Flutter On
+s3e11:Just For Sidekicks
+s3e12:Games Ponies Play
+s3e13:Magical Mystery Cure
+# Season 4
+s4e01:Princess Twilight Part 1
+s4e02:Princess Twilight Part 2
+s4e03:Castle-Mania
+s4e04:Daring Don't
+s4e05:Flight to the Finish
+s4e06:Power Ponies
+s4e07:Bats!
+s4e08:Rarity Takes Manehattan
+s4e09:Pinkie Apple Pie
+s4e10:Rainbow Falls
+s4e11:Three's a Crowd
+s4e12:Pinkie Pride
+s4e13:Simple Ways
+s4e14:Filli Vanilli
+s4e15:Twilight Time
+s4e16:It Ain't Easy Being Breezies
+s4e17:Somepony to Watch Over Me
+s4e18:Maud Pie
+s4e19:For Whom the Sweetie Belle Toils
+s4e20:Leap of Faith
+s4e21:Testing, Testing,1,2,3
+s4e22:Trade Ya
+s4e23:Inspiration Manifestation
+s4e24:Equestria Games
+s4e25:Twilight's Kingdom Part 1
+s4e26:Twilight's Kingdom Part 2
+# Season 5
+s5e01:The Cutie Map Part 1
+s5e02:The Cutie Map Part 2
+s5e03:Castle Sweet Castle
+s5e04:Bloom & Gloom
+s5e05:Tanks for the Memories
+s5e06:Appleoosa's Most Wanted
+s5e07:Make New Friends but Keep Discord
+s5e08:The Lost Treasure of Griffonstone
+s5e09:Slice of Life
+s5e10:Princess Spike
+s5e11:Party Pooped
+s5e12:Amending Fences
+s5e13:Do Princesses Dream of Magic Sheep?
