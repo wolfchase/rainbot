@@ -16,32 +16,33 @@ class mlp(Module):
         self.eplist = Eplist()
         self.eplist.load_episode_file(pkg_resources.resource_filename(__name__, "/episodes.txt"))
 
+    def _find_ep(self, args):
+        if not is_number(args[0]):
+            return args[0] + " is not a number"
+        
+        elif not is_number(args[1]):
+            return args[1] + " is not a number"
+        
+        season = args[0]
+        episode = '0' + args[1] if len(args[1]) is 1 else args[1]
+
+        return self.eplist.get_episode('s' + season + 'e' + episode)
+
     def ep(self, msg, args):
-        to = msg["Args"][0]
+        to = msg["Params"][0]
 
         if len(args) > 2:
-            self.say(to, self.eplist.get_random_episode()[1])
+            self.say(to, "Too many arguments")
 
         elif len(args) is 0:
             ep = self.eplist.get_random_episode()
-            self.say(to, "You should watch " + ep[1] + " | " + self.eplist.key_to_readable(ep[0]))
+            self.say(to, "You should watch: " + ep[1] + " (" + self.eplist.key_to_readable(ep[0]) + ")")
 
         elif len(args) != 2:
             self.say(to, "Insufficient arguments")
 
         else:
-            if not is_number(args[0]):
-                self.say(to, args[0] + " is not a number")
-                return
-            
-            elif not is_number(args[1]):
-                self.say(to, args[1] + " is not a number")
-                return
-            
-            season = int(args[0])
-            episode = int(0 + args[1]) if len(args[1]) is 1 else int(args[1])
-
-            result = self.eplist.get_episode('s' + season + 'e' + episode)
+            result = self._find_ep(args)
             if result:
                 self.say(to, result)
             else:

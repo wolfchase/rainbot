@@ -24,10 +24,14 @@ commandprefix : .
 # Modules
 modules :
   # Python Modules
-  #py :
-    #mlp : .
+  py :
+    mlp : .
+
+  # JavaScript Modules
+  js :
+    umbrella : .
 
   # Go Modules
   go :
-    raincore : github.com/raindevteam
+    raincore : github.com/wolfchase
 

@@ -1,8 +1,9 @@
 {
   "version": "0.1.0",
   "dependencies": {
-    "jsrml": "^0.2.0",
+    "jsrml": "*",
     "lodash": "^4.7.0",
-    "mathjs": "^3.1.4"
+    "mathjs": "^3.1.4",
+    "sandbox": "^0.8.6"
   }
 }
