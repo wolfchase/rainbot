@@ -107,3 +107,29 @@ s5e10:Princess Spike
 s5e11:Party Pooped
 s5e12:Amending Fences
 s5e13:Do Princesses Dream of Magic Sheep?
+s5e14:Canterlot Boutique
+s5e15:Rarity Investigates
+s5e16:Made in Manehattan
+s5e17:Brotherhooves Social
+s5e18:Crusaders of the Lost Mark
+s5e19:The One Where Pinkie Pie Knows
+s5e20:Heartbreakers
+s5e21:Scare Master
+s5e22:What About Discord
+s5e23:The Hooffields and McColts
+s5e24:The Mane Attraction
+s5e25:The Cutie Re-Mark Part 1
+s5e26:The Cutie Re-Mark Part 2
+# Season 6
+s6e01:The Crystalling Part 1
+s6e02:The Crystalling Part 2
+s6e03:The Gift of the Maud Pie
+s6e04:On Your Marks
+s6e05:Gauntlet of Fire
+s6e06:No Second Prances
+s6e07:Newbie Dash
+s6e08:A Hearth's Warming Tail
+s6e09:The Saddle Row Review
+s6e10:Applejack's Day Off
+s6e11:Flutter Brutter
+s6e12:Spice Up Your Life
