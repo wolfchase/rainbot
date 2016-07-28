@@ -38,12 +38,12 @@ class Umbrella extends Module {
         if (args[0]) {
           this.say(msg.Params[0], strhash(args[0]));
         } else {
-          this.say(msg.Params[0], msg.Name);
+          this.say(msg.Params[0], strhash(msg.Name));
         }
     }
 
     jip(msg, args) {
-        rainbox.run(args.join(' '), (output) => {
+        rainbox.run(args.join(' '), function(output) {
             let text = output.result;
             text = text.replace(/^'/, '').replace(/'$/, '');
             this.say(msg.Params[0], text);
@@ -52,13 +52,13 @@ class Umbrella extends Module {
 
     roll(msg, pargs) {
         const args = [];
-        const to = msg.Params[0]
+        const to = msg.Params[0];
         
         pargs = pargs.join(' ');
 
         if (args.length > 3) {
             this.say(to, 'Too many params');
-            return
+            return;
         }
 
         args[0] = pargs.match(/(\d+)r/);

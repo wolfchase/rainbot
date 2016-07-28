@@ -50,6 +50,9 @@ class mlp(Module):
         
         return
 
+    def rigged(self, msg, args):
+        self.say(msg["Params"][0], "This won't work" + 0)
+
 if __name__ == '__main__':
     m = mlp()
     
