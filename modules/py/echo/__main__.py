@@ -1,9 +1,10 @@
-from pyrml import Module
+import pyrml
+import sys
 
-m = Module("Echo", "A simple echo module")
+m = pyrml.Module("Echo", "A simple echo module")
 
 @m.command("echo")
 def echo(msg, args):
     m.say(msg["Params"][0], " ".join(args))
 
-m.register()
+m.register(sys.argv)

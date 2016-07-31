@@ -1,6 +1,7 @@
 from pyrml import Module
 from eplist import Eplist
 
+import sys
 import pkg_resources
 
 def is_number(s):
@@ -10,9 +11,9 @@ def is_number(s):
     except ValueError:
         return False
 
-class mlp(Module):
+class MLP(Module):
     def __init__(self):
-        Module.__init__(self, "mlp", "Commands for MLP")
+        Module.__init__(self, "MLP", "Commands for MLP")
         self.eplist = Eplist()
         self.eplist.load_episode_file(pkg_resources.resource_filename(__name__, "/episodes.txt"))
 
@@ -50,15 +51,12 @@ class mlp(Module):
         
         return
 
-    def rigged(self, msg, args):
-        self.say(msg["Params"][0], "This won't work" + 0)
-
 if __name__ == '__main__':
-    m = mlp()
+    m = MLP()
     
     m.add_command("ep", {
         "Help": "I'll think of something good for this'",
         "Fun": m.ep
     })
 
-    m.register()
+    m.register(sys.argv)

@@ -86,31 +86,25 @@ class Umbrella extends Module {
 if (require.main === module) {
     const m = new Umbrella();
 
-    m.initialize()
-    .then(() => {
-        m.addCommand("cal", {
-            Help: 'Parses math',
-            Fun: m.cal
-        });
-
-        m.addCommand("hash", {
-            Help: 'Hashes a given string',
-            Fun: m.hash
-        });
-
-        m.addCommand("jip", {
-            Help: 'Evaluates javascript',
-            Fun: m.jip
-        });
-
-        m.addCommand("roll", {
-            Help: 'You can roll with it if you like',
-            Fun: m.roll
-        });
-
-        m.register();
-    })
-    .fail((error) => {
-        console.error(error);
+    m.addCommand("cal", {
+        Help: 'Parses math',
+        Fun: m.cal
     });
+
+    m.addCommand("hash", {
+        Help: 'Hashes a given string',
+        Fun: m.hash
+    });
+
+    m.addCommand("jip", {
+        Help: 'Evaluates javascript',
+        Fun: m.jip
+    });
+
+    m.addCommand("roll", {
+        Help: 'You can roll with it if you like',
+        Fun: m.roll
+    });
+
+    m.register(process.argv);
 }

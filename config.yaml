@@ -1,39 +1,34 @@
-# Rain config
-# 0.6.0-alpha.1
+# RainBot on Canternet
 
 # Server information
 host : irc.canternet.org
 port : 6667
 
 # Channel Information
-# Channels listed here will be automatically joined upon server connect
 channels :
   - "#snowybottest"
-  - "#RainBot"
 
 # User information
 nick     : SnowBot
-realname : RainBotDevelop
+realname : Rain(Neverfree) 0.7.0-alpha.2+LifeBloom
 username : RainBotDevelop
 modes    : +B
 
 # Command Information
-# The command prefix is used to denote commands from IRC users
-commandprefix : .
+commandprefix : ","
 
 # Modules
 modules :
   # Python Modules
   py :
     mlp  : .
-    echo : .
+#    echo : .
 
   # JavaScript Modules
   js :
     umbrella : .
-    rainweb  : .
+#    rainweb  : .
 
   # Go Modules
   go :
     raincore : github.com/wolfchase
-
