@@ -5,7 +5,7 @@ Command Prefix is __;__
 
 - __info__
 
-    It will give you info about the bot! Try it, its fun! And totally not a way of promoting my work!
+    It will give you info about the bot! Try it, it's fun! And totally not a way of promoting my work!
 
 - __help__
 
@@ -13,7 +13,7 @@ Command Prefix is __;__
 
 - __join__
 
-    Let's the bot join channels. Don't use it yet plz.
+    Lets the bot join channels. Don't use it yet plz.
 
 - __source__
 
@@ -66,7 +66,7 @@ Command Prefix is __;__
 
 - __ep__
 
-    Given a season and epsiode as two numbers, will find the corresponding title of the episode.
+    Given a season and epsiode as two numbers, it will find the corresponding title of the episode.
 
     If given no arguments, it will recommend a random episode to watch.
 
