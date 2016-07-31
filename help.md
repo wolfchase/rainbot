@@ -1,5 +1,5 @@
 
-Command Prefix is __.__
+Command Prefix is __;__
 
 ## Core Module Commands
 
