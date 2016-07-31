@@ -13,11 +13,15 @@ Command Prefix is __.__
 
 - __join__
 
-    If you time travel forward, join should let you join other channels. But we're still living in the past.
+    Let's the bot join channels. Don't use it yet plz.
 
 - __source__
 
     Gives you the source to the IRC lib and to the bot, no, we insist you have both.
+
+- __changelog__
+
+    Display the changelog for the current version
 
 - __ver__
 
