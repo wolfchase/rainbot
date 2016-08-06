@@ -133,3 +133,5 @@ s6e09:The Saddle Row Review
 s6e10:Applejack's Day Off
 s6e11:Flutter Brutter
 s6e12:Spice Up Your Life
+s6e13:Stranger Than Fan Fiction
+s6e14:The Cart Before the Ponies

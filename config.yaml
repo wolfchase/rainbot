@@ -9,26 +9,28 @@ channels :
   - "#snowybottest"
 
 # User information
-nick     : SnowBot
-realname : Rain(Neverfree) 0.7.0-alpha.2+LifeBloom
-username : RainBotDevelop
-modes    : +B
+nick       : RainBot
+realname   : PinkDawn's Unstable Bot
+username   : RainBotDev
+modes      : +B
 
 # Command Information
-commandprefix : ","
+commandprefix : ";"
 
 # Modules
 modules :
   # Python Modules
   py :
     mlp  : .
-#    echo : .
+    echo : .
 
   # JavaScript Modules
   js :
     umbrella : .
-#    rainweb  : .
+    rainweb  : .
 
   # Go Modules
   go :
     raincore : github.com/wolfchase
+
+nimbus-debug: 2
