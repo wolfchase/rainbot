@@ -1,1 +1,2 @@
 modules/js/*/node_modules
+modules/py/*/__pycache__
