@@ -51,12 +51,20 @@ class MLP(Module):
         
         return
 
+    def test(self, msg, args):
+        self.say(msg["Params"][0], "test")
+
 if __name__ == '__main__':
     m = MLP()
     
     m.add_command("ep", {
         "Help": "I'll think of something good for this'",
         "Fun": m.ep
+    })
+
+    m.add_command("ep", {
+        "Help": "a test command",
+        "Fun": m.test
     })
 
     m.register(sys.argv)
