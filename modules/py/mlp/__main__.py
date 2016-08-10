@@ -62,7 +62,7 @@ if __name__ == '__main__':
         "Fun": m.ep
     })
 
-    m.add_command("ep", {
+    m.add_command("test", {
         "Help": "a test command",
         "Fun": m.test
     })
