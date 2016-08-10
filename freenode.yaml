@@ -1,0 +1,35 @@
+# RainBot on Canternet
+
+# Server information
+host : irc.freenode.net
+port : 6667
+
+# Channel Information
+channels :
+  - "#rain-go"
+
+# User information
+nick       : RainBot
+realname   : PinkDawn's Unstable Bot
+username   : RainBotDev
+
+# Command Information
+commandprefix : ";"
+
+# Modules
+modules :
+  # Python Modules
+  py :
+    mlp  : .
+    echo : .
+
+  # JavaScript Modules
+  js :
+    umbrella : .
+    rainweb  : .
+
+  # Go Modules
+  go :
+    raincore : github.com/wolfchase
+
+nimbus-debug: 2

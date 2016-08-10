@@ -43,7 +43,7 @@ class Umbrella extends Module {
     }
 
     jip(msg, args) {
-        rainbox.run(args.join(' '), function(output) {
+        rainbox.run(args.join(' '), (output) => {
             let text = output.result;
             text = text.replace(/^'/, '').replace(/'$/, '');
             this.say(msg.Params[0], text);
